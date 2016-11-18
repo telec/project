@@ -1,0 +1,43 @@
+.menu {
+   display:inline-block;
+    width:100%;
+    margin:0px auto;
+    padding:0;
+     background:#bbbbbb;
+}
+.menu li {
+    margin: 10px;
+    float: left;
+    position: relative;list-style: none;
+}
+.menu a {
+    padding: 8px 20px;
+    display: block;
+    text-decoration: none;
+
+}
+
+ .menu .pick-out a, .menu li:hover > a {
+    background: red;
+     color: #000;
+
+}
+.menu ul li:hover a, .menu li:hover li a {
+
+    background: #359;
+    border: none;
+    color:brown;
+}
+.menu li:hover > ul {
+    opacity:1;
+    visibility:visible;
+}
+.menu ul {
+    opacity:0;
+    visibility:hidden;
+    padding:0;
+    width:175px;
+    position:absolute;
+    background:#aabbcc url(../images/bg.png) repeat-x 0 0;
+    border:1px solid #7788aa;
+    }
